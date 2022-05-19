@@ -6,10 +6,10 @@
     <meta name="keywords" content="immaculata, ics2o">
     <meta name="author" content="Angelo Pintilie">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
-    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
     <link rel="stylesheet" href="./css/style.css">
     <title>Number Gap Counter in JS</title>
   </head>
@@ -17,16 +17,16 @@
     <script src="./js/script.js"></script>
 	  
     <h1><center>Number Gap Counter in JAVASCRIPT</center></h1>
-		<h3>This program will determine and display the gap of numbers from your minimum number up to your max number:</h3>
+		<h3>This program will determine and display the gap of even numbers from your minimum number up to your max number:</h3>
 		<table>
 			<tr align = "center">
 				<td valign="top" align="right">					
 					<form action="javascript:calculateGap()">				<!-- textfield that extracts te users max number -->
-						<label for="userMax">Enter a whole number(max):</label>
-						<input type="number" step="1" min="0" id="userMax"><br><br>	
+						<label for="max-num">Enter a whole number(max):</label>
+						<input type="number" step="1" min="0" id="max-num"><br><br>	
  <!-- textfield that extracts te users minimum number -->
-            <label for="userMin">Enter a whole number(min):</label>
-						<input type="number" step="1" min="0" id="userMin"><br><br>	
+            <label for="min-num">Enter a whole number(min):</label>
+						<input type="number" step="1" min="0" id="min-num"><br><br>	
 						
 						<input type="submit" value="Calculate Gap">
 					</form>
